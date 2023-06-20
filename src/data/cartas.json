@@ -1,0 +1,207 @@
+[
+  {
+    "nombre": "1 de espada",
+    "imagen": "1_espada.png",
+    "puntos": 14
+  },
+  {
+    "nombre": "1 de basto",
+    "imagen": "1_basto.png",
+    "puntos": 13
+  },
+  {
+    "nombre": "7 de espada",
+    "imagen": "7_espada.png",
+    "puntos": 12
+  },
+  {
+    "nombre": "7 de oro",
+    "imagen": "7_oro.png",
+    "puntos": 11
+  },
+  {
+    "nombre": "3 de espada",
+    "imagen": "3_espada.png",
+    "puntos": 10
+  },
+  {
+    "nombre": "3 de oro",
+    "imagen": "3_oro.png",
+    "puntos": 10
+  },
+  {
+    "nombre": "3 de copa",
+    "imagen": "3_copa.png",
+    "puntos": 10
+  },
+  {
+    "nombre": "3 de basto",
+    "imagen": "3_basto.png",
+    "puntos": 10
+  },
+  {
+    "nombre": "2 de espada",
+    "imagen": "2_espada.png",
+    "puntos": 9
+  },
+  {
+    "nombre": "2 de oro",
+    "imagen": "2_oro.png",
+    "puntos": 9
+  },
+  {
+    "nombre": "2 de copa",
+    "imagen": "2_copa.png",
+    "puntos": 9
+  },
+  {
+    "nombre": "2 de basto",
+    "imagen": "2_basto.png",
+    "puntos": 9
+  },
+  {
+    "nombre": "1 de oro",
+    "imagen": "1_oro.png",
+    "puntos": 8
+  },
+  {
+    "nombre": "1 de copa",
+    "imagen": "1_copa.png",
+    "puntos": 8
+  },
+  {
+    "nombre": "12 de espada",
+    "imagen": "12_espada.png",
+    "puntos": 7
+  },
+  {
+    "nombre": "12 de oro",
+    "imagen": "12_oro.png",
+    "puntos": 7
+  },
+  {
+    "nombre": "12 de copa",
+    "imagen": "12_copa.png",
+    "puntos": 7
+  },
+  {
+    "nombre": "12 de basto",
+    "imagen": "12_basto.png",
+    "puntos": 7
+  },
+  {
+    "nombre": "11 de espada",
+    "imagen": "11_espada.png",
+    "puntos": 6
+  },
+  {
+    "nombre": "11 de oro",
+    "imagen": "11_oro.png",
+    "puntos": 6
+  },
+  {
+    "nombre": "11 de copa",
+    "imagen": "11_copa.png",
+    "puntos": 6
+  },
+  {
+    "nombre": "11 de basto",
+    "imagen": "11_basto.png",
+    "puntos": 6
+  },
+  {
+    "nombre": "10 de espada",
+    "imagen": "10_espada.png",
+    "puntos": 5
+  },
+  {
+    "nombre": "10 de oro",
+    "imagen": "10_oro.png",
+    "puntos": 5
+  },
+  {
+    "nombre": "10 de copa",
+    "imagen": "10_copa.png",
+    "puntos": 5
+  },
+  {
+    "nombre": "10 de basto",
+    "imagen": "10_basto.png",
+    "puntos": 5
+  },
+  {
+    "nombre": "7 de copa",
+    "imagen": "7_copa.png",
+    "puntos": 4
+  },
+  {
+    "nombre": "7 de basto",
+    "imagen": "7_basto.png",
+    "puntos": 4
+  },
+  {
+    "nombre": "6 de espada",
+    "imagen": "6_espada.png",
+    "puntos": 3
+  },
+  {
+    "nombre": "6 de oro",
+    "imagen": "6_oro.png",
+    "puntos": 3
+  },
+  {
+    "nombre": "6 de copa",
+    "imagen": "6_copa.png",
+    "puntos": 3
+  },
+  {
+    "nombre": "6 de basto",
+    "imagen": "6_basto.png",
+    "puntos": 3
+  },
+  {
+    "nombre": "5 de espada",
+    "imagen": "5_espada.png",
+    "puntos": 2
+  },
+  {
+    "nombre": "5 de oro",
+    "imagen": "5_oro.png",
+    "puntos": 2
+  },
+  {
+    "nombre": "5 de copa",
+    "imagen": "5_copa.png",
+    "puntos": 2
+  },
+  {
+    "nombre": "5 de basto",
+    "imagen": "5_basto.png",
+    "puntos": 2
+  },
+  {
+    "nombre": "4 de espada",
+    "imagen": "4_espada.png",
+    "puntos": 1
+  },
+  {
+    "nombre": "4 de oro",
+    "imagen": "4_oro.png",
+    "puntos": 1
+  },
+  {
+    "nombre": "4 de copa",
+    "imagen": "4_copa.png",
+    "puntos": 1
+  },
+  {
+    "nombre": "4 de basto",
+    "imagen": "4_basto.png",
+    "puntos": 1
+  },
+  {
+    "nombre": "reverso",
+    "imagen": "reverso.png",
+    "puntos": 0
+  }
+]
