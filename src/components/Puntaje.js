@@ -1,14 +1,21 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material';
+import { Row, Col, Container, Card } from 'react-bootstrap';
 
 const Puntaje = ({ puntajeJugadores }) => (
-  <Box display="flex" justifyContent="space-around" alignItems="center" marginTop={4}>
-    {puntajeJugadores.map((puntaje, index) => (
-      <Typography key={index} variant="h6">
-        Puntaje Jugador {index + 1}: {puntaje}
-      </Typography>
-    ))}
-  </Box>
+  <Container className="mt-5">
+    <Row className="d-flex justify-content-sm-around">
+      {puntajeJugadores.map((puntaje, index) => (
+        <Col key={index} className="text-center" sm="3">
+          <Card className="mb-4">
+            <Card.Body>
+              <Card.Title>Jugador {index + 1}</Card.Title>
+              <Card.Text>Puntaje: {puntaje}</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      ))}
+    </Row>
+  </Container>
 );
 
 export default Puntaje;

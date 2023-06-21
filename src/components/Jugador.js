@@ -1,14 +1,13 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material';
 import Carta from './Carta';
 
-const Jugador = ({ jugador, cartas }) => (
-  <Box>
-    <Typography variant="h5">{jugador}</Typography>
+const Jugador = ({ jugador, cartas, jugarCarta, turnoJugador }) => (
+  <>
+    <h4 className="text-center">{jugador}</h4>
     <div>
-      {cartas && cartas.map((carta, index) => <Carta key={index} carta={carta} />)}
+      {cartas && cartas.map((carta, index) => <Carta key={index} carta={carta} noMostrar={!turnoJugador} onDoubleClick={() => jugarCarta(jugador, index)} />)}
     </div>
-  </Box>
+  </>
 );
 
 export default Jugador;

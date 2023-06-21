@@ -1,10 +1,17 @@
 import React from 'react';
-import { Card, CardMedia } from '@mui/material';
-
-const Carta = ({ carta }) => (
-  <Card style={{ maxWidth: 200, margin: '10px auto' }}>
-    <CardMedia component="img" height="200" image={`img/${carta?.imagen}`} alt={carta?.nombre} />
-  </Card>
-);
+import {Card, Image} from 'react-bootstrap';
+const Carta = ({carta, onDoubleClick, noMostrar}) => {
+  const cartaOculta = {
+    "nombre": "reverso",
+    "imagen": "reverso.png",
+    "puntos": 0
+  };
+  return (
+    <Card style={{maxWidth: 200, margin: '10px auto'}} onDoubleClick={noMostrar ? null : onDoubleClick}>
+      {noMostrar ? <Image src={`img/${cartaOculta.imagen}`} alt={carta?.nombre} thumxbnail /> :
+        <Image src={`img/${carta?.imagen}`} alt={carta?.nombre} thumbnail />}
+    </Card>
+  )
+};
 
 export default Carta;

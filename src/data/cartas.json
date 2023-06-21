@@ -198,10 +198,5 @@
     "nombre": "4 de basto",
     "imagen": "4_basto.png",
     "puntos": 1
-  },
-  {
-    "nombre": "reverso",
-    "imagen": "reverso.png",
-    "puntos": 0
   }
 ]
